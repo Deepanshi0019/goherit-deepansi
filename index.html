@@ -7,10 +7,10 @@
 
 <link rel="stylesheet" href="style.css">
 
-<link
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-rel="stylesheet"
-/>
+<!-- Inter font for modern typography -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
 </head>
 
 <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
@@ -28,7 +28,7 @@ AOS.init({
 <div class="container nav">
 
 <div class="logo">
-    <img src="./images/logo.png" alt="GOHERIT Logo">
+    <img src="./images/Goherijt_light_text_transparent.png" alt="GOHERIT Logo">
 </div>
 
 <nav>
@@ -248,26 +248,118 @@ Partner with GOHERIT and support India’s growing founder ecosystem.
 
         <h2 class="section-title">Contact Us</h2>
 
-        <div class="contact-box">
+        <div class="contact-grid">
 
-            <p>
-                <i class="fas fa-envelope"></i>
-                <a href="mailto:rdass96729@gmail.com">
-                    rdass96729@gmail.com
-                </a>
-            </p>
+            <div class="contact-left reveal">
 
-            <p>
-                <i class="fas fa-phone"></i>
-                <a href="tel:+919631410611">
-                    +91 96314 10611
-                </a>
-            </p>
+                <div class="contact-box">
 
-            <p>
-                <i class="fas fa-location-dot"></i>
-                Delhi, India
-            </p>
+                    <p>
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:rdass96729@gmail.com">
+                            rdass96729@gmail.com
+                        </a>
+                    </p>
+
+                    <p>
+                        <i class="fas fa-phone"></i>
+                        <a href="tel:+919631410611">
+                            +91 96314 10611
+                        </a>
+                    </p>
+
+                    <p>
+                        <i class="fas fa-location-dot"></i>
+                        Delhi, India
+                    </p>
+
+                    <div class="contact-social">
+                        <a href="#" aria-label="Twitter" class="social"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn" class="social"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="Instagram" class="social"><i class="fab fa-instagram"></i></a>
+                    </div>
+
+                </div>
+
+                <div class="map-illustration" aria-hidden="true"></div>
+
+            </div>
+
+            <div class="contact-right reveal">
+
+                <div class="form-card">
+                    <!-- Contact form: fields kept exactly as original -->
+                    <form
+                        action="https://api.web3forms.com/submit"
+                        method="POST"
+                        class="form"
+                    >
+
+                    <input
+                        type="hidden"
+                        name="access_key"
+                        value="d10e2317-659e-4d3e-a708-5703a0d6f791"
+                    />
+
+                    <input
+                        type="hidden"
+                        name="subject"
+                        value="New GOHERIT Founders Meetup Registration"
+                    />
+
+                    <input
+                        type="hidden"
+                        name="from_name"
+                        value="GOHERIT Website"
+                    />
+
+                    <input
+                        type="checkbox"
+                        name="botcheck"
+                        style="display:none;"
+                    />
+
+                    <input
+                        type="text"
+                        name="name"
+                        placeholder="Full Name"
+                        required
+                    />
+
+                    <input
+                        type="email"
+                        name="email"
+                        placeholder="Email Address"
+                        required
+                    />
+
+                    <input
+                        type="text"
+                        name="startup"
+                        placeholder="Startup Name"
+                        required
+                    />
+
+                    <input
+                        type="tel"
+                        name="phone"
+                        placeholder="Phone Number"
+                        required
+                    />
+
+                    <textarea
+                        name="message"
+                        rows="5"
+                        placeholder="Tell us about your startup"
+                        required
+                    ></textarea>
+
+                    <button type="submit" class="btn send">Send Message</button>
+
+                    </form>
+                </div>
+
+            </div>
 
         </div>
 
